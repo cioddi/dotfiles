@@ -41,10 +41,10 @@ TEXT
         "full_text": " HDD:${fs_free /} "
     },
     {
-        "full_text": " IP: ${if_up wlan0}${addr wlan0} ${wireless_essid wlan0}${endif} "
+        "full_text": " IP: ${if_up eth0}${addr eth0} ${wireless_essid eth0}${endif} "
     },
     {
-        "full_text": " D: ${downspeed wlan0}/s U: ${upspeed wlan0}/s T: ${totaldown wlan0}"
+        "full_text": " D: ${downspeed eth0}/s U: ${upspeed eth0}/s T: ${totaldown eth0}"
     },
     {
         "full_text": " CPU: ${cpu cpu0}% ",
@@ -67,9 +67,6 @@ TEXT
     {
         "full_text": " Temp: ${exec sensors | grep 'Core 0' | cut -c16-19 | sed '/^$/d' }°C "
     },
-  {
-      "full_text": " ${battery} "
-  },
   {
       "full_text": " ${uptime_short} "
   },
