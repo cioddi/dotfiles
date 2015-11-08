@@ -14,6 +14,7 @@ set $mod Mod1
 set $mod2 Mod4
 
 
+exec insync start
 #bindsym $mod+Shift+l exec "~/.i3/fuzzy_lock.sh"
 exec xautolock -time 15 -locker '~/.i3/fuzzy_lock.sh' &
 #set background color
