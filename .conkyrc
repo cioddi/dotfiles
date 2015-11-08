@@ -41,7 +41,7 @@ TEXT
         "full_text": " HDD:${fs_free /} "
     },
     {
-        "full_text": " ${if_up wlan0}wlan0:${addr wlan0} ${wireless_essid wlan0}${endif} ${if_up eth0}eth0:${addr eth0}${endif} "
+        "full_text": " ${if_up wlan0}wlan0: ${addr wlan0} ${wireless_essid wlan0}${endif} ${if_up eth0}eth0: ${addr eth0}${endif} "
     },
     {
         "full_text": " CPU: ${cpu cpu0}% ",
