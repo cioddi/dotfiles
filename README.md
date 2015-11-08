@@ -39,4 +39,3 @@ make && sudo make install
 sudo rm /usr/bin/vi
 sudo ln -s /usr/local/bin/vim /usr/bin/vi
 ```
-

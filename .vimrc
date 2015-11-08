@@ -119,7 +119,6 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
       \ --ignore "**/*.pdf"
       \ --ignore lib/filter
       \ --ignore lib/form
-      \ --ignore data
       \ --ignore cache
       \ --ignore lib/vendor
       \ --ignore lib/model/om
