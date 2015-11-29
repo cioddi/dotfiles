@@ -66,6 +66,8 @@ Plugin '2072/PHP-Indenting-for-vim'
 
 Plugin 'joonty/vdebug'
 
+Plugin 'juneedahamed/svnj.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
