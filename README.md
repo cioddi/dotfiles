@@ -3,20 +3,25 @@
 ```
 sudo apt-get install python2.7-dev silversearcher-ag
 ```
+#change capslock to escape
+xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+xmodmap -e "clear Lock"
+xmodmap -pke > ~/.xmodmap
+echo "xmodmap .xmodmap" > .xinitrc
 
 #Download & install powerline fonts
 
 ```
-https://github.com/powerline/fonts.git
+git clone https://github.com/powerline/fonts.git
 cd fonts
 ./install
 ```
 
-#Install vundle
+#Install vundle & vim plugins
 
 ```
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-//in vim
+vi .vimrc
 :PluginInstall
 ```
 

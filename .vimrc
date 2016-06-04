@@ -29,6 +29,8 @@ Plugin 'kien/ctrlp.vim'
 
 Plugin 'StanAngeloff/php.vim'
 
+Plugin 'vim-airline/vim-airline-themes'
+
 Plugin 'bling/vim-airline'
 
 Plugin 'SirVer/ultisnips'
@@ -70,6 +72,7 @@ Plugin '2072/PHP-Indenting-for-vim'
 Plugin 'joonty/vdebug'
 
 Plugin 'juneedahamed/svnj.vim'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -213,3 +216,4 @@ map <C-ScrollWheelUp> <nop>
 
 let mapleader=","
 
+let g:ackprg = 'ag --nogroup --nocolor --column'
