@@ -73,6 +73,7 @@ Plugin 'joonty/vdebug'
 
 Plugin 'juneedahamed/svnj.vim'
 
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
