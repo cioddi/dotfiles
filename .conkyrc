@@ -53,7 +53,7 @@ TEXT
             ${endif} 
     },
     {
-        "full_text": " RAM: ${memperc}% ",
+        "full_text": " RAM: ${memperc}% swp: ${swapperc}%",
         "color":
             ${if_match ${memperc}>90}"\#FF0000"${else}
                 ${if_match ${memperc}<10}"\#00CC00"${else}

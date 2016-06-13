@@ -6,7 +6,8 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 set backupdir^=~/.vim/backup//
-set undodir=~/.vim/undo/
+set undodir^=~/.vim/undo//
+set directory^=~/.vim/swap//
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -70,6 +71,10 @@ Plugin '2072/PHP-Indenting-for-vim'
 Plugin 'joonty/vdebug'
 
 Plugin 'juneedahamed/svnj.vim'
+
+Plugin 'smarty-syntax'
+
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
