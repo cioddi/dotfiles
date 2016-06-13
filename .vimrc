@@ -30,6 +30,8 @@ Plugin 'kien/ctrlp.vim'
 
 Plugin 'StanAngeloff/php.vim'
 
+Plugin 'vim-airline/vim-airline-themes'
+
 Plugin 'bling/vim-airline'
 
 Plugin 'SirVer/ultisnips'
@@ -72,8 +74,11 @@ Plugin 'joonty/vdebug'
 
 Plugin 'juneedahamed/svnj.vim'
 
+<<<<<<< HEAD
 Plugin 'smarty-syntax'
 
+=======
+>>>>>>> 1cb3b8ba63bded328511904fa03e2bf350fbfeb5
 Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()            " required
@@ -218,3 +223,4 @@ map <C-ScrollWheelUp> <nop>
 
 let mapleader=","
 
+let g:ackprg = 'ag --nogroup --nocolor --column'
