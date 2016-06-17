@@ -75,6 +75,8 @@ Plugin 'juneedahamed/svnj.vim'
 
 Plugin 'editorconfig/editorconfig-vim'
 
+Plugin 'evidens/vim-twig'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
