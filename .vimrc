@@ -6,7 +6,8 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 set backupdir^=~/.vim/backup//
-set undodir=~/.vim/undo/
+set undodir^=~/.vim/undo//
+set directory^=~/.vim/swap//
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -73,6 +74,11 @@ Plugin 'joonty/vdebug'
 
 Plugin 'juneedahamed/svnj.vim'
 
+<<<<<<< HEAD
+Plugin 'smarty-syntax'
+
+=======
+>>>>>>> 1cb3b8ba63bded328511904fa03e2bf350fbfeb5
 Plugin 'editorconfig/editorconfig-vim'
 
 Plugin 'evidens/vim-twig'
