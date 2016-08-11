@@ -145,6 +145,8 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
       \ --ignore web/___phpadmin
       \ --ignore test/functional
       \ --ignore node_modules
+      \ --ignore tags
+      \ --ignore doc
       \ -g ""' 
 
 "nerdtree-tabs
@@ -222,4 +224,27 @@ map <C-ScrollWheelUp> <nop>
 
 let mapleader=","
 
-let g:ackprg = 'ag --nogroup --nocolor --column'
+let g:ackprg = 'ag --nogroup --nocolor --column
+      \ --ignore .git
+      \ --ignore .svn
+      \ --ignore .hg
+      \ --ignore .DS_Store
+      \ --ignore "**/*.pyc"
+      \ --ignore "**/*.jpg"
+      \ --ignore "**/*.png"
+      \ --ignore "**/*.PDF"
+      \ --ignore "**/*.pdf"
+      \ --ignore lib/filter
+      \ --ignore lib/form
+      \ --ignore cache
+      \ --ignore lib/vendor
+      \ --ignore lib/model/om
+      \ --ignore web/img
+      \ --ignore web/images
+      \ --ignore web/piwikik
+      \ --ignore test/bootstrap
+      \ --ignore web/___phpadmin
+      \ --ignore test/functional
+      \ --ignore node_modules
+      \ --ignore tags
+      \ --ignore doc' 
