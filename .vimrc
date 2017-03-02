@@ -80,6 +80,8 @@ Plugin 'editorconfig/editorconfig-vim'
 
 Plugin 'evidens/vim-twig'
 
+Plugin 'powerman/vim-plugin-viewdoc'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
